@@ -1,0 +1,96 @@
+body{
+    width: 1000px;
+    margin: auto;
+}
+
+body > div{
+    background-color: black;
+    padding: 10px;
+}
+
+header div{
+   padding: 20px 5px;
+   float: left;
+   width: 140px;
+    
+}
+
+nav{
+    float: left;
+    width: 820px;
+    padding: 67px 0px 0px 20px;
+}
+header section{
+    clear: both;
+}
+main figure{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+main figure img{
+    width: 100%;
+}
+
+main figure div{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    padding: 105px  50px;
+    color: beige;
+    background-image: linear-gradient(90deg, rgb(184, 36, 36, 1), rgb(227, 195, 195, 0.005));
+}
+
+#left{
+    width: 240px;
+    float: left;
+   
+}
+
+aside div ul{
+    list-style:none;
+    color: white ;
+    background-color: black;
+    border-radius: 5px;
+    margin: 20px 10px;
+}
+
+#right{
+    width: 750px;
+    float: left;
+}
+
+#right div{
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 20px 20px 0px 0px;
+    width: 351px;
+    text-align: center;
+    float: left;
+}
+
+#right div a{
+
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    display: inline-block;
+    padding: 10px 0px;
+    width: 100%;
+
+}
+
+footer{
+    clear: both;
+}
+
+footer p{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
